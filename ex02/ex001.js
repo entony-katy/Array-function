@@ -6,7 +6,7 @@ console.log(arr)
 
 //adicionando 
 
-arr.splice(2, 2, "teste")
+arr.splice(2, 0, "teste")
 
 console.log(arr)
 
@@ -16,10 +16,24 @@ arr.splice(1, 1)
 
 console.log(arr)
 
+//indexOf() - saber qual o valor do indece do numero ou se não existe dentro do vetor
+
+console.log(arr.indexOf(5))
+
+//caso o valor não exista dentro do vetor
+
+console.log(arr.indexOf(8))
+
+//join("o que ira separa cada valor")
+//para converter o valor de um vetor em string 
+
+var arr2 = ['o', 'rato', 'roeu', 'a', 'roupa']
+
+
+console.log(arr2.join(" "))
+
 //reverse() - inverter a ordem do vetor
 
-arr.reverse()
+arr2.reverse()
 
-console.log(arr)
-
-//indexOf()
+console.log(arr2.join(' '))
